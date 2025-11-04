@@ -61,7 +61,7 @@ jobs:
       run: |
         echo "nameserver 223.6.6.6" | sudo tee /etc/resolv.conf
         echo "nameserver 223.5.5.5" | sudo tee -a /etc/resolv.conf
-        ping -c 3 $ALIYUN_REGISTRY
+        #ping -c 3 $ALIYUN_REGISTRY
         docker login -u $ALIYUN_REGISTRY_USER -p $ALIYUN_REGISTRY_PASSWORD $ALIYUN_REGISTRY
         # 数据预处理,判断镜像是否重名
         declare -A duplicate_images
