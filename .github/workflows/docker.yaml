@@ -59,8 +59,8 @@ jobs:
 
     - name: Build and push image Aliyun
       run: |
-        echo "nameserver 114.114.114.114" | sudo tee /etc/resolv.conf
-        echo "nameserver 8.8.4.4" | sudo tee -a /etc/resolv.conf
+        echo "nameserver 223.6.6.6" | sudo tee /etc/resolv.conf
+        echo "nameserver 223.5.5.5" | sudo tee -a /etc/resolv.conf
         ping -c 3 $ALIYUN_REGISTRY
         docker login -u $ALIYUN_REGISTRY_USER -p $ALIYUN_REGISTRY_PASSWORD $ALIYUN_REGISTRY
         # 数据预处理,判断镜像是否重名
