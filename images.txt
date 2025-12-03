@@ -28,6 +28,10 @@
 #registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.4
 registry.hub.docker.com/prometheuscommunity/ipmi-exporter:v1.10.1
 quay.io/prometheus/snmp-exporter:v0.29.0
+docker.io/feiyu563/prometheus-alert:v4.9.1
+
+# local-path-provisioner
+docker.io/rancher/local-path-provisioner:v0.0.32
 
 #支持指定架构
 #--platform=linux/amd64 nvcr.io/nvidia/k8s-device-plugin:v0.17.0
