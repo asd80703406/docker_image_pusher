@@ -40,7 +40,7 @@
 # SYS_PKG_VER=1.0.0
 easzlab/kubeasz-k8s-bin:v1.28.15
 easzlab/kubeasz-ext-bin:1.8.0
-easzlab/kubeasz-sys-pkg:1.0.0
+#easzlab/kubeasz-sys-pkg:1.0.0
 
 #支持指定架构
 #--platform=linux/amd64 nvcr.io/nvidia/k8s-device-plugin:v0.17.0
